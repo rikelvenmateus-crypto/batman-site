@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman: A Jornada do Cavaleiro das Trevas</title>
+   
+    <style>
+        /* ===== RESET E CONFIGURAÇÕES GERAIS ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        /* ===== CABEÇALHO PRINCIPAL ===== */
+        header {
+            background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom: 3px solid #f5c518;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            color: #f5c518;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #b0b0b0;
+            font-style: italic;
+        }
+
+        /* ===== BARRA DE NAVEGAÇÃO ===== */
+        nav {
+            background-color: #121212;
+            padding: 15px 0;
+            text-align: center;
+            border-bottom: 1px solid #333;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #f5c518;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        /* ===== CONTEÚDO PRINCIPAL ===== */
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* ===== SEÇÕES ===== */
+        section {
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-left: 5px solid #f5c518;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            color: #f5c518;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #d4a017;
+            font-size: 1.5em;
+            margin: 20px 0 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        /* ===== DESTAQUE PARA CITAÇÕES OU FATOS IMPORTANTES ===== */
+        .destaque {
+            background-color: #2a2a2a;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-style: italic;
+            border-left: 4px solid #f5c518;
+        }
+
+        /* ===== LISTA DE VILÕES ===== */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            background: #262626;
+            margin: 10px 0;
+            padding: 12px 15px;
+            border-radius: 5px;
+            border-left: 3px solid #f5c518;
+        }
+
+        /* ===== RODAPÉ ===== */
+        footer {
+            background-color: #0d0d0d;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 2px solid #f5c518;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #f5c518;
+            text-decoration: none;
+        }
+
+        /* ===== BOTÃO VOLTAR AO TOPO ===== */
+        .btn-topo {
+            display: block;
+            text-align: center;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #f5c518;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            width: fit-content;
+            transition: background 0.3s;
+        }
+
+        .btn-topo:hover {
+            background-color: #ffd700;
+        }
+
+        /* ===== RESPONSIVIDADE ===== */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== CABEÇALHO ===== -->
+    <header id="topo">
+        <h1>🦇 Batman: O Cavaleiro das Trevas</h1>
+        <p>A história do herói, seus inimigos e suas batalhas por Gotham</p>
+    </header>
+
+    <!-- ===== NAVEGAÇÃO ===== -->
+    <nav>
+        <a href="#origem">Origem</a>
+        <a href="#coringa">Coringa</a>
+        <a href="#mascara-negra">Máscara Negra</a>
+        <a href="#pinguim">Pinguim</a>
+        <a href="#conclusao">Conclusão</a>
+    </nav>
+
+    <!-- ===== CONTEÚDO ===== -->
+    <main>
+
+        <!-- SEÇÃO: ORIGEM DO BATMAN -->
+        <section id="origem">
+            <h2>1. A Origem do Batman</h2>
+            <p>
+                Bruce Wayne nasceu em Gotham City, filho dos bilionários Thomas e Martha Wayne. 
+                Sua infância foi marcada por privilégios, mas também por uma tragédia que mudaria 
+                sua vida para sempre. Aos oito anos de idade, após saírem de um cinema, Bruce 
+                testemunhou o assassinato de seus pais durante um assalto no Beco do Crime. 
+                Esse evento traumático plantou nele uma sede incontrolável por justiça.
+            </p>
+            <p>
+                Determinado a combater o crime, Bruce viajou pelo mundo durante anos, treinando 
+                artes marciais, estratégia, ciência forense e técnicas de investigação. Ao retornar 
+                a Gotham, percebeu que apenas habilidades físicas não bastavam: precisava de um 
+                símbolo que causasse medo nos criminosos. Inspirado por morcegos que invadiram a 
+                Mansão Wayne, Bruce adotou a identidade do <strong>Batman</strong>, o Cavaleiro das Trevas.
+            </p>
+            <div class="destaque">
+                "Os criminosos são supersticiosos e covardes. Meu disfarce deve ser capaz de 
+                incutir terror em seus corações. Devo me tornar uma criatura da noite, escura, 
+                terrível... um morcego."
+            </div>
+            <p>
+                Com a ajuda de seu mordomo Alfred Pennyworth e, mais tarde, de aliados como Robin 
+                e Batgirl, Batman iniciou sua guerra contra o crime organizado e os supervilões 
+                que assolavam Gotham.
+            </p>
+        </section>
+
+        <!-- SEÇÃO: CORINGA -->
+        <section id="coringa">
+            <h2>2. O Coringa – O Palhaço do Crime</h2>
+            <h3>Como Batman o conheceu</h3>
+            <p>
+                O Coringa surgiu como um misterioso criminoso que deixava um rastro de caos e 
+                cartas de baralho com a figura do coringa. Batman o encontrou pela primeira vez 
+                ao investigar uma série de assassinatos macabros em Gotham. O vilão logo se revelou 
+                um mestre do crime imprevisível, com uma mente brilhante e uma obsessão doentia 
+                por anarquia e humor negro.
+            </p>
+            <p>
+                A origem do Coringa é incerta — ele mesmo diz preferir um passado de "múltipla 
+                escolha". A versão mais aceita conta que ele era um pequeno criminoso que caiu em 
+                um tanque de produtos químicos na fábrica de cartas Axis, após um confronto com 
+                Batman. A exposição aos produtos desfigurou seu rosto, deixando a pele branca, os 
+                lábios vermelhos e um sorriso permanente, além de enlouquecê-lo completamente.
+            </p>
+            <h3>Como Batman o derrotou</h3>
+            <p>
+                O Coringa é o maior inimigo de Batman, responsável por atrocidades como a morte 
+                de Jason Todd (o segundo Robin) e a paralisia de Barbara Gordon. Em diversas 
+                ocasiões, Batman conseguiu capturá-lo não apenas pela força, mas também pela 
+                inteligência. Ele estuda o padrão caótico do vilão e antecipa seus movimentos, 
+                usando o medo e a psicologia reversa.
+            </p>
+            <p>
+                Em um dos confrontos mais emblemáticos, Batman resistiu à tentação de matar o 
+                Coringa, mesmo após o vilão ter ferido pessoas queridas. Ele o derrotou fisicamente 
+                e o entregou ao Asilo Arkham, provando que a justiça não precisa se corromper. 
+                O Coringa frequentemente é derrotado por sua própria arrogância e pela incapacidade 
+                de compreender que Batman jamais quebrará seu código moral.
+            </p>
+        </section>
+
+        <!-- SEÇÃO: MÁSCARA NEGRA -->
+        <section id="mascara-negra">
+            <h2>3. Máscara Negra – O Império do Crime</h2>
+            <h3>Como Batman o conheceu</h3>
+            <p>
+                Roman Sionis era um empresário rico e herdeiro de uma fortuna, mas sua obsessão 
+                por máscaras e seu temperamento violento o levaram à ruína. Após perder sua empresa 
+                e ser desfigurado em um incêndio, ele esculpiu uma máscara negra do caixão de seu 
+                pai e a fundiu ao próprio rosto, tornando-se o <strong>Máscara Negra</strong>.
+            </p>
+            <p>
+                Batman o encontrou ao investigar uma nova onda de crimes organizados em Gotham. 
+                Máscara Negra assumiu o controle de várias gangues, criando uma falsa "Sociedade 
+                dos Falsos Rostos" e impondo um reinado de terror através de tortura e assassinatos.
+            </p>
+            <h3>Como Batman o derrotou</h3>
+            <p>
+                Diferente do Coringa, Máscara Negra é um vilão extremamente metódico e cruel, 
+                mas movido por vingança e poder. Batman usou suas habilidades de detetive para 
+                infiltrar-se em sua organização, descobrindo seus esquemas de tráfico de armas 
+                e lavagem de dinheiro. Com a ajuda de aliados como a Oráculo (Barbara Gordon), 
+                ele desmantelou as operações do Máscara Negra uma a uma.
+            </p>
+            <p>
+                A derrota definitiva veio quando Batman expôs a verdadeira identidade do vilão 
+                para seus próprios capangas, quebrando o mito de sua invencibilidade. Encurralado 
+                e sem exército, Máscara Negra foi capturado e entregue à polícia. Sua maior 
+                fraqueza era a necessidade de controle — quando seu império ruiu, ele ficou 
+                psicologicamente destruído.
+            </p>
+        </section>
+
+        <!-- SEÇÃO: PINGUIM -->
+        <section id="pinguim">
+            <h2>4. O Pinguim – O Senhor do Submundo</h2>
+            <h3>Como Batman o conheceu</h3>
+            <p>
+                Oswald Chesterfield Cobblepot, conhecido como <strong>Pinguim</strong>, é um dos 
+                mais antigos inimigos de Batman. Nascido em uma família rica, mas rejeitado por 
+                sua aparência (baixa estatura, nariz pontudo e andar desajeitado), ele cresceu 
+                obcecado por pássaros e por vingança contra a elite de Gotham.
+            </p>
+            <p>
+                Batman o enfrentou pela primeira vez quando o Pinguim tentou chantagear a cidade 
+                usando aves treinadas para roubar joias. Por trás de sua fachada de empresário 
+                legítimo do Iceberg Lounge, o Pinguim controlava grande parte do crime organizado 
+                de Gotham, lidando com informações, armas e contrabando.
+            </p>
+            <h3>Como Batman o derrotou</h3>
+            <p>
+                O Pinguim é um mestre manipulador que raramente suja as próprias mãos. Batman 
+                precisou de paciência e estratégia para conectar seus crimes a ele. Utilizando 
+                vigilância e interrogatórios, conseguiu reunir provas das ligações do Pinguim 
+                com outras facções criminosas.
+            </p>
+            <p>
+                Em um confronto decisivo no Iceberg Lounge, Batman enfrentou o Pinguim e seus 
+                capangas, desativando suas armas especiais (guarda-chuvas equipados com lâminas, 
+                gás e metralhadoras). O vilão foi derrotado quando seu próprio esquema de 
+                chantagem se voltou contra ele, graças a uma gravação obtida por Batman. 
+                Sem saída, o Pinguim foi preso e enviado para a Penitenciária de Blackgate.
+            </p>
+        </section>
+
+        <!-- SEÇÃO: CONCLUSÃO -->
+        <section id="conclusao">
+            <h2>5. Conclusão</h2>
+            <p>
+                A vida de Batman é uma luta constante contra o crime e a escuridão que habita 
+                Gotham City. Enfrentando vilões como o Coringa, o Máscara Negra e o Pinguim, 
+                Bruce Wayne mostrou que a verdadeira força não está apenas nos punhos, mas na 
+                mente, na determinação e na recusa em abandonar seus princípios.
+            </p>
+            <p>
+                Cada inimigo representa um aspecto diferente do mal: o caos, a vingança e a 
+                corrupção. Ao derrotá-los, Batman não apenas salva vidas, mas também inspira 
+                esperança em uma cidade que muitas vezes parece perdida. Ele é a prova de que 
+                um único homem pode fazer a diferença.
+            </p>
+            <div class="destaque">
+                "Porque ele é o herói que Gotham merece, mas não o que precisa agora. E então 
+                vamos caçá-lo, porque ele pode suportar. Porque ele não é um herói. É um guardião 
+                silencioso, um protetor vigilante. Um Cavaleiro das Trevas."
+            </div>
+        </section>
+
+        <!-- BOTÃO VOLTAR AO TOPO -->
+        <a href="#topo" class="btn-topo">⬆ Voltar ao topo</a>
+
+    </main>
+
+    <!-- ===== RODAPÉ ===== -->
+    <footer>
+        <p>Trabalho escolar – História do Batman | Criado com HTML e CSS</p>
+        <p>Fontes: DC Comics, adaptações oficiais</p>
+        <p>RESPONSAVEL PELO SITE:GYAN LUCAS</p>
+        <p><a href="#topo">Voltar ao início</a></p>
+    </footer>
+
+</body>
+</html>
